@@ -42,7 +42,7 @@ OrionLib:MakeNotification({
 
 
 Tab0:AddTextbox({
-	Name = "Key",
+	Name = "nigger",
 	Default = "",
 	TextDisappear = true,
 	Callback = function(Value)
@@ -54,7 +54,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "WestinWare", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
-	Name = "Universal Script",
+	Name = "NIGGERS IN MY ASS",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
