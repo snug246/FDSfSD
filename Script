@@ -1,0 +1,38 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Westins Scripts", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+OrionLib:MakeNotification({
+	Name = "Loaded!",
+	Content = "Made By Westin",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+local Tab0 = Window:MakeTab({
+	Name = "Blox Fruits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+
+Tab0:AddButton({
+	Name = "MamaHub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MAMAhub1/Mmahub/main/README.md"))()
+      		print("Script Loading")
+  	end    
+})
+
+local Tab1 = Window:MakeTab({
+	Name = "Fisch",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab1:AddButton({
+	Name = "SpeedhubX",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+      		print("Script Loading")
+  	end    
+})
+
+OrionLib:Init()
